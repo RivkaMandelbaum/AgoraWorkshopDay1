@@ -1,0 +1,108 @@
+body{
+    margin:0; 
+    padding:0; /* deal with this when adding logo */ 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#container { 
+    background-color: white; /* CHANGE LATER */ 
+} 
+
+/* MOVED THIS FROM BELOW RIGHT-PANE */ 
+ .logo { 
+    width: 5vh;
+    height: 5vh; 
+    margin-top: 10px;
+    margin-left: 10px; 
+    position: absolute;  
+}  
+
+#image-container {
+    max-width: 100%;
+    max-height: 100%; 
+}  
+
+ .centered-content { 
+    margin: 10vh; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: row; 
+}  
+ .left-pane { 
+     display: flex; 
+    width: 40vh;
+    height: 80vh; 
+    float: left; 
+    margin-left: 10vh; 
+    margin-top: 10vh; 
+    margin-bottom: 10vh; 
+    padding:20px;
+    background-color: #099dfd;
+} 
+
+#left-image-container{ 
+    width: 70%; 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 45%;
+}
+
+#caption-text { 
+    font-size: 1.75rem; 
+    color: white; 
+    font-weight: lighter; 
+    text-align: center;
+    margin-top: 10%; 
+    margin-bottom: 10%;
+}
+
+#bolded { 
+    font-weight: bold;
+}
+
+.right-pane {
+    display: flex; 
+    width: 40vh;
+    height: 80vh; 
+    float: right;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh; 
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 3px 3px 5px 1px gray /* LOOK INTO THIS */  
+} 
+
+.loginContainer{
+    margin-top: 20vh;
+}
+
+#headText{
+    font-size: 1.75rem; 
+}
+
+#highlighted{
+    color: #099dfd;
+}
+
+#email { 
+    margin-top: 20px;
+}
+
+input {  /* Targets all input tags we have. */ 
+    margin-top: 10px; 
+    width: 90%; 
+    font-size: 1rem; 
+    border-width: 2px;
+    border-style: solid; 
+    border-color: #099dfd; 
+    border-radius: 5px;
+}
+
+.submitButton {
+    background-color: #099dfd; 
+    padding: 5px; 
+    margin: 10px; 
+    border-radius: 5px; 
+}
+
