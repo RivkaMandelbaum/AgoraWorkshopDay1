@@ -1,14 +1,13 @@
 body{
     margin:0; 
-    padding:0; /* deal with this when adding logo */ 
+    padding:0; 
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 #container { 
-    background-color: white; /* CHANGE LATER */ 
+    background-color: white; 
 } 
 
-/* MOVED THIS FROM BELOW RIGHT-PANE */ 
  .logo { 
     width: 5vh;
     height: 5vh; 
@@ -23,13 +22,13 @@ body{
 }  
 
  .centered-content { 
-    margin: 10vh; 
+    margin: 5vh; 
     height: 80vh; 
     display: flex; 
     flex-direction: row; 
 }  
  .left-pane { 
-     display: flex; 
+    display: flex; 
     width: 40vh;
     height: 80vh; 
     float: left; 
@@ -70,7 +69,7 @@ body{
     margin-bottom: 10vh; 
     padding: 20px;
     background-color: white; 
-    box-shadow: 3px 3px 5px 1px gray /* LOOK INTO THIS */  
+    box-shadow: 3px 3px 5px 1px gray  
 } 
 
 .loginContainer{
@@ -87,6 +86,11 @@ body{
 
 #email { 
     margin-top: 20px;
+    font-weight: lighter; 
+}
+
+#password {
+    font-weight: lighter; 
 }
 
 input {  /* Targets all input tags we have. */ 
@@ -104,5 +108,7 @@ input {  /* Targets all input tags we have. */
     padding: 5px; 
     margin: 10px; 
     border-radius: 5px; 
+    border-color: #099dfd; 
+    color: white; 
 }
 
